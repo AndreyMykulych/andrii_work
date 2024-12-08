@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+ul {
+    list-style-type: circle;
+}
+
+li::marker {
+    color: red;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}

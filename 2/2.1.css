@@ -1,0 +1,23 @@
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+tr:nth-child(1) >th {
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+}
+
+input.text:focus{
+    border-color: green;
+}
+input.button{
+    background-color: blue;
+    color: white;
+}
+
+input.button:hover {
+    background-color: lightblue;
+}
